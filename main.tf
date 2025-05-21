@@ -10,6 +10,6 @@ resource "aws_instance" "terraform-cloud-demo" {
     instance_type = var.instance_type
     subnet_id     = var.subnet_id
     tags = {
-        Name = "Terraform Cloud Demo"
+        Name = "Terraform Cloud Demo-2"
     }
 }
